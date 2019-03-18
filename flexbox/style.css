@@ -1,0 +1,161 @@
+body {
+    font-family: "Arimo";
+    background-color: #fefefe;
+}
+
+.header {
+    display: flex;
+    height: 95px;
+}
+
+.header-link {
+    margin: auto;
+    font-size: 28px;
+    text-decoration: none;
+    color: #10191e;
+}
+
+.menu {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link {
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #10191e
+}
+
+.main {
+    max-width: 1330px;
+    margin: auto;
+}
+
+.beginner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.beginner-project {
+    width: 636px;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-code {
+    background-image: url(https://pictures.s3.yandex.net/cat.png);
+}
+
+.design-principles {
+    background-image: url(https://pictures.s3.yandex.net/designPrinciples.png);
+}
+
+.intern {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.intern-column {
+    display: flex;
+    width: 636px;
+    height: 557px;
+    background-size: cover;
+    background-position: center;
+}
+
+.multi-item {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.intern-project-block {
+    justify-content: space-between;
+}
+
+.two-projects {
+    display: flex;
+}
+
+.intern-project {
+    width: 306px;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-project {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_5.png);
+}
+
+.second-project {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_6.png);
+}
+
+.one-project {
+    width: 636px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_4.png);
+}
+
+.single-item {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_3.png);
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.pro-project {
+    width: 306px;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-pro-project {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_9.png);
+    order: 3;
+    align-self: center;
+}
+
+.second-pro-project {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_8.png);
+    order: 2;
+    align-self: center;
+    flex-basis: 636px;
+}
+
+.third-pro-project {
+    background-image: url(https://pictures.s3.yandex.net/coming_soon_7.png);
+    order: 1;
+    align-self: center;
+}
+
+.footer {
+    height: 95px;
+    display: flex;
+}
+
+.logo {
+    width: 145px;
+    height: 25px;
+    margin: auto;
+    background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
