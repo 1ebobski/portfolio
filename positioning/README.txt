@@ -1,0 +1,1 @@
+This is a Yandex.Praktikum project created in online code editor. Most of the code was already written and I just added small changes to element positioning according to the tasks.

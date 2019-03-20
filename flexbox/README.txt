@@ -1,0 +1,1 @@
+This is a Yandex.Praktikum project created in online code editor. Some parts were already precoded and some were written by me during education process.
