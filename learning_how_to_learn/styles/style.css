@@ -4,19 +4,10 @@
     --onyx: #1F1F1F;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 .page {
     min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
     max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -26,7 +17,6 @@ ul {
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    /* выше установили ограничения для секции */
     background-color: var(--grey);
 }
 
@@ -59,6 +49,11 @@ ul {
     font-size: 18px;
     left: 64px;
     bottom: 30px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: var(--blue);
 }
 
 .header_square-pic {
@@ -98,6 +93,7 @@ ul {
     margin: 0;
     line-height: 1.2;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .two-columns_main-text {
@@ -248,7 +244,6 @@ ul {
 
 .footer_columns {
     margin: 60px 64px 0;
-    /* padding-top: 60px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -275,10 +270,10 @@ ul {
     font-size: 18px;
 }
 
-.footer_column__info,  .footer_column__social{
+.footer_column__info, .footer_column__social {
     width: 25%;
     position: relative;
-    left: 200px;
+    left: 215px;
 }
 
 .footer_column-heading {
@@ -294,6 +289,14 @@ ul {
     margin: 20px 0 16px 0;
     line-height: 30px;
     font-size: 18px;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: white;
 }
 
 .footer_social-links__fb::before {
