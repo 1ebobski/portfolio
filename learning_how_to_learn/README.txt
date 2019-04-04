@@ -1,1 +1,0 @@
-This is a Yandex.Praktikum assignment. The code is written by me, materials are provided by Y.P crew.
